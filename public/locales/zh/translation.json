@@ -1,0 +1,23 @@
+{
+  "app": {
+    "name": "Unison",
+    "description": "a variable website template"
+  },
+  "auth": {
+    "title": "需要密码",
+    "tips": "管理员开启了密码验证，请在下方填入访问码",
+    "input": "在此处填写访问码",
+    "confirm": "确认",
+    "later": "稍后再说",
+    "email": "电子邮件",
+    "OTP": "验证码",
+    "sendOTP": "发送验证码",
+    "login": "登录",
+    "loginSuccess": "登录成功，跳转至主界面。",
+    "emailEmpty": "邮箱地址不能为空",
+    "emailFormatError": "邮箱地址格式错误",
+    "OTPError": "验证码错误",
+    "resendOTP": "{{count}} 秒后重发",
+    "moreAuth": "更多登录方式"
+  }
+}

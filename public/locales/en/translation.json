@@ -1,0 +1,23 @@
+{
+  "app": {
+    "name": "Unison",
+    "description": "a variable website template"
+  },
+  "auth": {
+    "title": "Need Access Code",
+    "tips": "Please enter access code below",
+    "input": "access code",
+    "confirm": "Confirm",
+    "later": "Later",
+    "email": "Email",
+    "OTP": "Verification Code",
+    "sendOTP": "Send verification code",
+    "login": "Login",
+    "loginSuccess": "Login successful, redirect to the main interface.",
+    "emailEmpty": "Email address cannot be empty",
+    "emailFormatError": "Email address format error",
+    "OTPError": "Verification code error",
+    "resendOTP": "Resend in {{count}}seconds",
+    "moreAuth": "More login methods"
+  }
+}
