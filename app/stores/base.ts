@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { create, StoreApi, UseBoundStore } from "zustand";
 import { combine, persist, subscribeWithSelector } from "zustand/middleware";
 
@@ -36,7 +37,7 @@ type SecondParam<T> = T extends (
     _f: infer _F,
     _s: infer S,
     ...args: infer _U
-  ) => any
+  ) => object
   ? S
   : never;
 
