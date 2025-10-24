@@ -2,7 +2,7 @@ import { App, ConfigProvider } from "antd";
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import '@ant-design/v5-patch-for-react-19';
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Geist } from "next/font/google";
 import React from "react";
 
 import { GLOBAL_STYLE } from "@/style/theme";
@@ -11,7 +11,9 @@ import { I18nProvider } from "@/i18n";
 import "jifou-react-ui/dist/index.css";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const geist = Geist({
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <body className={`${inter.className} bg-background text-foreground overflow-hidden`}>
+    <body className={`${geist.className} bg-background text-foreground overflow-hidden`}>
     <main>
       <AntdRegistry>
         <ConfigProvider theme={GLOBAL_STYLE}>

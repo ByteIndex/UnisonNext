@@ -3,10 +3,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
 
-export interface AppHeroProps {
-}
-
-export default function AppHero({}: AppHeroProps) {
+export default function AppHero() {
   const { t } = useTranslation()
 
   return (
